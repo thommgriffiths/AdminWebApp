@@ -43,23 +43,14 @@ function App() {
           <Link to="/" className="btn btn-dark">
             Inicio
           </Link>
+          <Link to="/QuickReport" className="btn btn-dark">
+            QRC
+          </Link>
           <Link to="/notificaciones" className="btn btn-dark">
             Notificaciones
           </Link>
           <Link to="/tareasadmin" className="btn btn-dark">
             Tareas Administrador
-          </Link>
-          <Link to="/QuickReport" className="btn btn-dark">
-            QRC
-          </Link>
-          <Link to="/SeleccionObra" className="btn btn-dark">
-            Gestiones Obra
-          </Link>
-          <Link to="/MenuClientes" className="btn btn-dark">
-            GestionesCliente
-          </Link>
-          <Link to="/Consultas" className="btn btn-dark">
-            Consultas
           </Link>
           <Link to="/AdministracionSistema" className="btn btn-dark">
             AdmSistema
@@ -181,7 +172,7 @@ function App() {
 
         <Switch>
           <Route path="/" exact>
-            <Inicio />
+            <QRC />
           </Route>
         </Switch>
       </div>
